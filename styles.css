@@ -264,4 +264,45 @@ body {
 .contact-link:hover .whatsapp-icon {
     transform: scale(1.1);
     transition: transform 0.2s ease;
+}.phone-link {
+    color: inherit; /* Keeps the same color as the surrounding text */
+    text-decoration: none; /* Removes underline */
+    cursor: pointer; /* Shows a pointer cursor on hover */
+}
+
+.phone-link:hover {
+    text-decoration: underline; /* Optional: adds underline on hover */
+}
+
+
+/* Phone Numbers Section */
+.phone-section {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 10px;
+}
+
+/* Gym Landline (Separated) */
+.gym-landline {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Location Map Section */
+.location-section {
+    margin: 20px 0;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 10px;
+}
+
+.map-container {
+    margin-top: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
